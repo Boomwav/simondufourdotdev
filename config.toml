@@ -1,0 +1,267 @@
+# Page settings
+
+baseURL = "https://simondufour.dev"
+title = "Simon Dufour"
+theme = "hugo-devresume-theme"
+defaultContentLanguage = "fr"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+
+[params]
+    author = "Simon Dufour"
+    description = "Simon Dufour, Développeur Senior, Angular, C#, Asp.NET"
+    primaryColor = "#007599"
+    textPrimaryColor = "#292929"
+
+    [params.profile]
+        enable = true
+        name = "Simon Dufour"
+        tagline = "Analyste-Programmeur Senior"
+        avatar = "avatar.png"
+
+    [params.contact]
+        enable = true
+        location = "Montréal, Canada"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:5144669186"
+        text = "514-466-9186"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "sim.dufour@gmail.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "#"
+        text = "simondufour.dev"
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technique"
+        [[params.skills.list.items]]
+        details = "Typescript/Angular/C#"
+        [[params.skills.list.items]]
+        details = "ASP.NET/NgRx/RxJS"
+        [[params.skills.list.items]]
+        details = "Node.js/ASP.NET"
+        [[params.skills.list.items]]
+        details = "SQL-Server/Firebase"
+        [[params.skills.list.items]]
+        details = "Programmation Orienté-Objet et réactive"
+        [[params.skills.list.items]]
+        details = "Conception et implémentation de bases de données"
+        [[params.skills.list.items]]
+        details = "Direction et livraison d'applications complexes"
+
+        [[params.skills.list]]
+        title = "Professionnel"
+        [[params.skills.list.items]]
+        details = "Esprit analytique"
+        [[params.skills.list.items]]
+        details = "Joueur d'équipe"
+        [[params.skills.list.items]]
+        details = "Axé sur le client"
+        [[params.skills.list.items]]
+        details = "Partage de connaissances"
+
+    [params.education]
+        enable = true
+        [[params.education.list]]
+        degree = "BAC, Génie Logiciel"
+        university = "École de Technologie supérieure"
+        dates = "2006-2010"
+        [[params.education.list]]
+        degree = "DEC, Technique en informatique - Profil Gestion"
+        university = "CEGEP Régionnal de Lanaudière à Joliette"
+        dates = "2003-2006"
+
+    [params.awards]
+        enable = false
+
+        [[params.awards.list]]
+        name = "Award Lorem Ipsum"
+        body = "Microsoft lorem ipsum"
+        date = "2019"
+        [[params.awards.list]]
+        name = "Award Donec Sodales"
+        body = "Oracle Aenean"
+        date = "2017"
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "Français"
+        level = "Native"
+        [[params.languages.list]]
+        name = "Anglais"
+        level = "Professionel"
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Jeux-vidéos"
+        [[params.interests.list]]
+        name = "Musique électronique"
+        [[params.interests.list]]
+        name = "Internet"
+        [[params.interests.list]]
+        name = "Politique"
+        [[params.interests.list]]
+        name = "Généalogie"
+
+    [params.summary]
+        enable = true
+        text = """J'ai fait le développement d'un variété d'application de gestion. Je m'intéresse principalement au 
+        développement d'application Angular et .NET. J'ai adoré travailler en Angular depuis ses tout débuts. C'est 
+        une plateforme qui permet des solutions élégante à des problèmes complexes. Ce fût aussi mon introduction à la 
+        philosophie de Redux et de la programmation réactive. Ce qui me passionne par-dessus tout, c'est de trouver des 
+        façons innovatrice d'offrir à mes clients une application qui répond le mieux possible à leurs besoins en utilisant 
+        tous les avantages que les nouvelles technologies nous offrent. J'ai une formation académique en gestion de projet, 
+        en assurance qualité, en tests et en maintenance. Je n'hésite pas à utiliser dans la vie de tous les jours afin de 
+        faire un travail de qualité et d'offrir à mes collègues une nouvelle perspective."""
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Développeur Front-end Senior"
+        dates = "Nov 2019 - Aujourd'hui"
+        company = "Desjardins"
+        details = "Conception et implémentation d'applications en Angular en utilisant NgRx et RxJs."
+        [[params.experience.list.items]]
+        details = "Développement d'applications avec Angular 4-11."
+        [[params.experience.list.items]]
+        details = "Gestion de l'état avec NgRx"
+        [[params.experience.list.items]]
+        details = "Programmation réactive avec RxJs"
+        [[params.experience.list.items]]
+        details = "Implémentation de Oauth2 et Auth0"
+        [[params.experience.list.items]]
+        details = "Tests unitaires Jasmine"
+        [[params.experience.list.items]]
+        details = "Support des application en production"
+        [[params.experience.list.items]]
+        details = "SourceTree, Jira, Scrum, SonarQube"
+
+        [[params.experience.list]]
+        title = "Consultant"
+        dates = "Oct 2017 - Nov 2019"
+        company = "CGI"
+        details = "Support d'applications web intranet"
+        [[params.experience.list.items]]
+        details = "ASP.NET 3.5 et ASP.NET Core"
+        [[params.experience.list.items]]
+        details = "Entity Framework"
+        [[params.experience.list.items]]
+        details = "SQL-Server 2014 et SQL-Developer"
+        [[params.experience.list.items]]
+        details = "EmberJs, GitKraken, Jira, Scrum"
+
+        [[params.experience.list]]
+        title = "Consultant"
+        dates = "Oct 2016 - Sep 2017"
+        company = "CGI"
+        details = "Développement Front-End de SPA publique et privé en Angular."
+        [[params.experience.list.items]]
+        details = "Développement d'une application web en Angular à ses tout début."
+        [[params.experience.list.items]]
+        details = "Développement de preuves de concepts afin de déterminer ce qui était possible."
+        [[params.experience.list.items]]
+        details = """Utilisation de plusieurs technologies comme Angular 2+, GIT, GIT-Flow, SASS,
+CSS3, Bootstrap 3 et 4, BEM, NodeJS, Angular-cli, Webpack."""
+        [[params.experience.list.items]]
+        details = "Git, Jira, Scrum"
+
+        [[params.experience.list]]
+        title = "Analyste-programmeur"
+        dates = "Avr 2010 - Mai 2016"
+        company = "SNC-Lavalin"
+        details = """Développement d'applications web avec ASP.NET MVC et Webform 
+        dans l'équipe de Nouveaux Développements. Mon rôle était principalement de 
+        développer et maintenir les différents modules de leur application intranet 
+        de gestion de projet. J'ai participé activement dans la transition d'un cycle 
+        de vie en cascade jusqu'à l'utilisation du cadre de travail Scrum. J'ai animé 
+        plusieurs rencontre et j'ai remplacé notre Scrum Master à plusieurs occasions. 
+        Mon expertise avec Scrum m'a permis de devenir une référence sur le sujet dans 
+        ma division."""
+        [[params.experience.list.items]]
+        details = "C#, ASP.NET, Javascript, HTML5 et CSS3"
+        [[params.experience.list.items]]
+        details = "Librairies comme Bootstrap, TypeScript, JQuery, Telerik UI, Kendo UI, Underscore.JS, et plusieurs autres."
+        [[params.experience.list.items]]
+        details = "Services Web XML, WCF, OData and REST"
+        [[params.experience.list.items]]
+        details = "Développement à l'aide de bases de données SQL-Serveur et T-SQL"
+
+        [[params.experience.list]]
+        title = "Étudiant - Programmeur .NET"
+        dates = "Mai 2008 - Avr 2010"
+        company = "SNC-Lavalin"
+        details = "J'ai développer et fait la maintenance des outils de gestion de projets de SNC-Lavalin. J'ai construit des systèmes en ASP.NET 2.0 et utilisant une base de données SQL-Serveur. Mes connaissances en HTML, CSS et Javascript ont été très utiles à moi et à mes collègues. Dans un second projet, j'ai utiliser les services offerts par Sharepoint afin de développer et faire la maintenance d'un système complexe de feuille de temps en Javascript."
+
+        [[params.experience.list]]
+        title = "Développeur Web"
+        dates = "Mai 2007 - Mai 2008"
+        company = "Connexion-Lanaudière"
+        details = "Dévelopement de page Web pour des entreprises extérieures. Les maquettes des pages était habituellement faites par des graphistes à l'externe. Nous devions transformer la maquette, qui était en Adobe Photoshop ou Adobe Illustrator, et la transformer en page Web fonctionnelle. Les pages devaient respecter la norme XHTML 1.1. Durant mon mandat, j'ai travaillé avec HTML 4.0, CSS 2.0, JSP, JQuery, MooTool. Les outils que j'ai utilisés étaient Dreamweaver et Photoshop CS2."
+
+    [params.projects]
+        enable = false
+
+        [[params.projects.list]]
+        title = "Project Lorem Ipsum"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+
+        [[params.projects.list]]
+        title = "Project Sed Fringilla"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+        [[params.projects.list]]
+        title = "Project Praesent"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+    [params.information]
+        enable = false
+
+        [[params.information.list]]
+        title = "Papers"
+        [[params.information.list.items]]
+        details = "2018 · Lorem Ipsum"
+        [[params.information.list.items]]
+        details = "2016 · Sed Fringilla"
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "Climbing, Snowboarding, Photography, Travelling"
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "https://github.com/Boomwav"
+        title = "BoomWav"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "https://www.linkedin.com/in/simdufour/"
+        title = "simdufour"
+        [[params.social.list]]
+        icon = "fab fa-twitter-square"
+        url = "https://twitter.com/simdufour"
+        title = "@simdufour"
+        [[params.social.list]]
+        icon = "fab fa-steam-square"
+        url = "https://steamcommunity.com/id/boomwav/"
+        title = "BoomWav"
+[params.footer]
+        copyright = "Simon Dufour"
+
+
