@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "https://simondufour.dev"
+baseURL = "https://simondufour.dev/"
 title = "Simon Dufour"
 theme = "hugo-devresume-theme"
 defaultContentLanguage = "fr"
@@ -9,7 +9,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params]
     author = "Simon Dufour"
-    description = "Simon Dufour, Développeur Senior, Angular, C#, Asp.NET"
+    description = "Développeur Senior, Angular, C#, Asp.NET"
     primaryColor = "#007599"
     textPrimaryColor = "#292929"
 
@@ -75,7 +75,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         dates = "2006-2010"
         [[params.education.list]]
         degree = "DEC, Technique en informatique - Profil Gestion"
-        university = "CEGEP Régionnal de Lanaudière à Joliette"
+        university = "CÉGEP Regional de Lanaudière à Joliette"
         dates = "2003-2006"
 
     [params.awards]
@@ -86,8 +86,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         body = "Microsoft lorem ipsum"
         date = "2019"
         [[params.awards.list]]
-        name = "Award Donec Sodales"
-        body = "Oracle Aenean"
+        name = "Award Lorem Ipsum"
+        body = "Oracle Microsoft"
         date = "2017"
 
     [params.languages]
@@ -98,7 +98,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         level = "Native"
         [[params.languages.list]]
         name = "Anglais"
-        level = "Professionel"
+        level = "Professionnel"
 
     [params.interests]
         enable = true
@@ -116,7 +116,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
     [params.summary]
         enable = true
-        text = """J'ai fait le développement d'un variété d'application de gestion. Je m'intéresse principalement au 
+        text = """J'ai fait le développement d'une variété d'application de gestion. Je m'intéresse principalement au 
         développement d'application Angular et .NET. J'ai adoré travailler en Angular depuis ses tout débuts. C'est 
         une plateforme qui permet des solutions élégante à des problèmes complexes. Ce fût aussi mon introduction à la 
         philosophie de Redux et de la programmation réactive. Ce qui me passionne par-dessus tout, c'est de trouver des 
@@ -144,7 +144,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         [[params.experience.list.items]]
         details = "Tests unitaires Jasmine"
         [[params.experience.list.items]]
-        details = "Support des application en production"
+        details = "Support d'applications en production"
         [[params.experience.list.items]]
         details = "SourceTree, Jira, Scrum, SonarQube"
 
@@ -208,7 +208,7 @@ CSS3, Bootstrap 3 et 4, BEM, NodeJS, Angular-cli, Webpack."""
         title = "Développeur Web"
         dates = "Mai 2007 - Mai 2008"
         company = "Connexion-Lanaudière"
-        details = "Dévelopement de page Web pour des entreprises extérieures. Les maquettes des pages était habituellement faites par des graphistes à l'externe. Nous devions transformer la maquette, qui était en Adobe Photoshop ou Adobe Illustrator, et la transformer en page Web fonctionnelle. Les pages devaient respecter la norme XHTML 1.1. Durant mon mandat, j'ai travaillé avec HTML 4.0, CSS 2.0, JSP, JQuery, MooTool. Les outils que j'ai utilisés étaient Dreamweaver et Photoshop CS2."
+        details = "Développement de page Web pour des entreprises extérieures. Les maquettes des pages était habituellement faites par des graphistes à l'externe. Nous devions transformer la maquette, qui était en Adobe Photoshop ou Adobe Illustrator, et la transformer en page Web fonctionnelle. Les pages devaient respecter la norme XHTML 1.1. Durant mon mandat, j'ai travaillé avec HTML 4.0, CSS 2.0, JSP, JQuery, MooTool. Les outils que j'ai utilisés étaient Dreamweaver et Photoshop CS2."
 
     [params.projects]
         enable = false
@@ -216,17 +216,17 @@ CSS3, Bootstrap 3 et 4, BEM, NodeJS, Angular-cli, Webpack."""
         [[params.projects.list]]
         title = "Project Lorem Ipsum"
         meta = "Open Source"
-        tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+        tagline = "You can use this section for your side projects."
 
         [[params.projects.list]]
-        title = "Project Sed Fringilla"
+        title = "Project Sed Lorem Ipsum"
         meta = "Open Source"
-        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+        tagline = "You can use this section for your side projects."
 
         [[params.projects.list]]
-        title = "Project Praesent"
+        title = "Project Lorem Ipsum"
         meta = "Open Source"
-        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+        tagline = "You can use this section for your side projects."
 
     [params.information]
         enable = false
@@ -236,7 +236,7 @@ CSS3, Bootstrap 3 et 4, BEM, NodeJS, Angular-cli, Webpack."""
         [[params.information.list.items]]
         details = "2018 · Lorem Ipsum"
         [[params.information.list.items]]
-        details = "2016 · Sed Fringilla"
+        details = "2016 · Sed Lorem Ipsum"
 
         [[params.information.list]]
         title = "Interests"
