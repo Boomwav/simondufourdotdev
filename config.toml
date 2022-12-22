@@ -108,6 +108,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         [[params.interests.list]]
         name = "Musique électronique"
         [[params.interests.list]]
+        name = "Famille et parentalité"
+        [[params.interests.list]]
         name = "Internet"
         [[params.interests.list]]
         name = "Politique"
@@ -127,10 +129,34 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
     [params.experience]
         enable = true
+        
+        [[params.experience.list]]
+        title = "Tech Lead Angular"
+        dates = "Juin 2021 - Aujourd'hui"
+        company = "Desjardins"
+        details = "Gestion d'une équipe de développeur pour l'implémentation d'un projet d'envergure en Angular."
+        [[params.experience.list.items]]
+        details = "Développement d'applications avec Angular 13."
+        [[params.experience.list.items]]
+        details = "Mise en place de la méthodologie pour un travail efficace."
+        [[params.experience.list.items]]
+        details = "Gestion d'une équipe de 5 développeurs"
+        [[params.experience.list.items]]
+        details = "Coordination avec l'équipe Backend"
+        [[params.experience.list.items]]
+        details = "Travaille avec les analystes d'affaires, les QA et les architectes afin de mené le projet à terme dans les temps et les budgets"
+        [[params.experience.list.items]]
+        details = "Gestion de l'état avec NgRx"
+        [[params.experience.list.items]]
+        details = "Programmation réactive avec RxJs"
+        [[params.experience.list.items]]
+        details = "Implémentation de Oauth2 et Auth0"
+        [[params.experience.list.items]]
+        details = "Tests unitaires Jasmine"
 
         [[params.experience.list]]
         title = "Développeur Front-end Senior"
-        dates = "Nov 2019 - Aujourd'hui"
+        dates = "Nov 2019 - Juin 2021"
         company = "Desjardins"
         details = "Conception et implémentation d'applications en Angular en utilisant NgRx et RxJs."
         [[params.experience.list.items]]
